@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 5.4.2">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="MarkDown基本语法1、标题#+空格+标题名称为一级标题，每多一个#为下一级标题，最多可以6级标题； 2、分割线用三个或以上的“—”或“***”表示   3、字体一对*号括住的表示斜体： 斜体  一对**括住的表示粗体： 粗体  一对***括住表示粗斜体： 粗斜体  文字前后加两个~~： 删除线 3、引用用一个&gt;加一个空格表示引用内容  666  4、超链接 图片可以本地图片或者网络图片">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MarkDown基本语法">
+<meta property="og:url" content="http://example.com/2022/09/22/MarkDown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/index.html">
+<meta property="og:site_name" content="LZH&#39;s Tree Hole">
+<meta property="og:description" content="MarkDown基本语法1、标题#+空格+标题名称为一级标题，每多一个#为下一级标题，最多可以6级标题； 2、分割线用三个或以上的“—”或“***”表示   3、字体一对*号括住的表示斜体： 斜体  一对**括住的表示粗体： 粗体  一对***括住表示粗斜体： 粗斜体  文字前后加两个~~： 删除线 3、引用用一个&gt;加一个空格表示引用内容  666  4、超链接 图片可以本地图片或者网络图片">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/4264ea5395314ab4817fe7bb0dc09b20.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/e28f7f28e6a54d47b77046123a86f3e4.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/89ddbf565a0d4816b9d9314ae12cca66.png">
+<meta property="og:image" content="f:/图片/星空.jpg">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/1300caed8e3e401c9cd4e470a60abd9f.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAd2VpeGluXzQ4OTA5Nzcy,size_15,color_FFFFFF,t_70,g_se,x_16">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/4313c72573c0485292d8855cc35ecf67.png">
+<meta property="article:published_time" content="2022-09-22T06:30:23.000Z">
+<meta property="article:modified_time" content="2022-09-22T06:55:39.731Z">
+<meta property="article:author" content="lzh">
+<meta property="article:tag" content="MarkDown">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/4264ea5395314ab4817fe7bb0dc09b20.png">
+
+
+<link rel="canonical" href="http://example.com/2022/09/22/MarkDown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2022/09/22/MarkDown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/","path":"2022/09/22/MarkDown基本语法/","title":"MarkDown基本语法"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>MarkDown基本语法 | LZH's Tree Hole</title>
+  
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">LZH's Tree Hole</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#MarkDown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95"><span class="nav-number">1.</span> <span class="nav-text">MarkDown基本语法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1%E3%80%81%E6%A0%87%E9%A2%98"><span class="nav-number">1.1.</span> <span class="nav-text">1、标题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2%E3%80%81%E5%88%86%E5%89%B2%E7%BA%BF"><span class="nav-number">1.2.</span> <span class="nav-text">2、分割线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3%E3%80%81%E5%AD%97%E4%BD%93"><span class="nav-number">1.3.</span> <span class="nav-text">3、字体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3%E3%80%81%E5%BC%95%E7%94%A8"><span class="nav-number">1.4.</span> <span class="nav-text">3、引用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4%E3%80%81%E8%B6%85%E9%93%BE%E6%8E%A5-%E5%9B%BE%E7%89%87"><span class="nav-number">1.5.</span> <span class="nav-text">4、超链接 图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5%E3%80%81%E5%88%97%E8%A1%A8"><span class="nav-number">1.6.</span> <span class="nav-text">5、列表</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="nav-number">1.6.1.</span> <span class="nav-text">有序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="nav-number">1.6.2.</span> <span class="nav-text">无序列表</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6%E3%80%81%E8%A1%A8%E6%A0%BC"><span class="nav-number">1.7.</span> <span class="nav-text">6、表格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7%E3%80%81%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="nav-number">1.8.</span> <span class="nav-text">7、代码块</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">lzh</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/09/22/MarkDown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="lzh">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LZH's Tree Hole">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="MarkDown基本语法 | LZH's Tree Hole">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          MarkDown基本语法
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-09-22 14:30:23 / 修改时间：14:55:39" itemprop="dateCreated datePublished" datetime="2022-09-22T14:30:23+08:00">2022-09-22</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="MarkDown基本语法"><a href="#MarkDown基本语法" class="headerlink" title="MarkDown基本语法"></a>MarkDown基本语法</h1><h2 id="1、标题"><a href="#1、标题" class="headerlink" title="1、标题"></a>1、标题</h2><p>#+空格+标题名称为一级标题，每多一个#为下一级标题，最多可以6级标题；</p>
+<h2 id="2、分割线"><a href="#2、分割线" class="headerlink" title="2、分割线"></a>2、分割线</h2><p>用三个或以上的“—”或“***”表示</p>
+<hr>
+<hr>
+<h2 id="3、字体"><a href="#3、字体" class="headerlink" title="3、字体"></a>3、字体</h2><p>一对*号括住的表示斜体：</p>
+<p><em>斜体</em></p>
+<p><img src="https://img-blog.csdnimg.cn/4264ea5395314ab4817fe7bb0dc09b20.png" alt="在这里插入图片描述"></p>
+<p>一对**括住的表示粗体：</p>
+<p><strong>粗体</strong></p>
+<p><img src="https://img-blog.csdnimg.cn/e28f7f28e6a54d47b77046123a86f3e4.png" alt="在这里插入图片描述"></p>
+<p>一对***括住表示粗斜体：</p>
+<p><em><strong>粗斜体</strong></em></p>
+<p><img src="https://img-blog.csdnimg.cn/89ddbf565a0d4816b9d9314ae12cca66.png" alt="在这里插入图片描述"></p>
+<p>文字前后加两个~~：</p>
+<p><del>删除线</del></p>
+<h2 id="3、引用"><a href="#3、引用" class="headerlink" title="3、引用"></a>3、引用</h2><p>用一个&gt;加一个空格表示引用内容</p>
+<blockquote>
+<p>666</p>
+</blockquote>
+<h2 id="4、超链接-图片"><a href="#4、超链接-图片" class="headerlink" title="4、超链接 图片"></a>4、超链接 图片</h2><p>可以本地图片或者网络图片，[外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-1iCcSi8T-1648640955056)(图片路径)]</p>
+<img src="F:\图片\星空.jpg" alt="本地图片" style="zoom:80%;" />
+
+<p>超链接：</p>
+<p>[]+()添加超链接</p>
+<p><a target="_blank" rel="noopener" href="https://www.baidu.com/">跳转至百度</a></p>
+<h2 id="5、列表"><a href="#5、列表" class="headerlink" title="5、列表"></a>5、列表</h2><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><p>使用1. （.后有一个空格）</p>
+<ol>
+<li>a</li>
+<li>b</li>
+<li>c</li>
+</ol>
+<h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><p>使用减号-+空格：</p>
+<ul>
+<li>a</li>
+<li>b</li>
+<li>c</li>
+</ul>
+<h2 id="6、表格"><a href="#6、表格" class="headerlink" title="6、表格"></a>6、表格</h2><p>语法：到源代码界面做如下操作</p>
+<p><img src="https://img-blog.csdnimg.cn/1300caed8e3e401c9cd4e470a60abd9f.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAd2VpeGluXzQ4OTA5Nzcy,size_15,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p>回到本来页面，得到如下表格：</p>
+<table>
+<thead>
+<tr>
+<th>名字</th>
+<th>性别</th>
+<th>学号</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>张三</td>
+<td>男</td>
+<td>1</td>
+</tr>
+<tr>
+<td>李四</td>
+<td>女</td>
+<td>2</td>
+</tr>
+</tbody></table>
+<p>也可右键插入表格、图片等。</p>
+<h2 id="7、代码块"><a href="#7、代码块" class="headerlink" title="7、代码块"></a>7、代码块</h2><p>三个`后接要写的语言后回车</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">a</span> <span class="operator">=</span> <span class="string">&#x27;Hello World!&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="https://img-blog.csdnimg.cn/4313c72573c0485292d8855cc35ecf67.png" alt="在这里插入图片描述"></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/MarkDown/" rel="tag"># MarkDown</a>
+          </div>
+
+        
+
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">lzh</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>
